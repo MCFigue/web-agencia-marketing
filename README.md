@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# MARKETING DE CONTENIDO WEB
 <img src="https://i.ibb.co/LzBvGb8/dwda.png"/>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 <h2>Tecnologías Usadas</h2>
 <div style="display: inline_block"><br>
   <img align="center" title="React-js" alt="Figue-React" height="30" width="35" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png">
