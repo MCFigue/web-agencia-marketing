@@ -10,7 +10,7 @@
   <img align="center" title="MySql" alt="Figue-mysql" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" /> 
   <img align="center" title="HTML" alt="Figue-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" title="CSS"  alt="Figue-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-In the project directory, you can run:
+
 
   <img align="center" title="Tailwind CSS" alt="Figue-Tailwind" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-### `npm start`
+
