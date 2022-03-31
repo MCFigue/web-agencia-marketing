@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.elements{
+  
+ 
+  animation: move 2.5s linear infinite;
+}
+@keyframes move{
+  0%{
+      transform: translate(-25px,0px);
+  }50%{
+      transform: translate(0px,-25px);
+  }
+  100%{
+      transform: translate(-25px,0px);
+  }
+}
