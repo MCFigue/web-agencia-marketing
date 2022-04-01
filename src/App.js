@@ -1,7 +1,11 @@
 
 import './App.css';
+import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+
 
 function App() {
+ 
+
   return (
     <>
         <header className="text-white body-font  bg-gradient-to-r from-pink-700 via-pink-500 to-orange-400">
@@ -28,7 +32,19 @@ function App() {
         <section className="text-white body-font bg-gradient-to-r from-pink-700 via-pink-500 to-orange-400">
           <div className="container mx-auto flex  md:flex-row flex-col items-center pt-20 ">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font sm:text-5xl text-5xl mb-4 font-medium text-white">Marketing de Contenido
+              <h1 className="title-font sm:text-5xl text-5xl mb-4 font-medium text-white"> Marketing  
+              <Typewriter
+                  words={[' Business', ' Digital', ' Social', ' de Contenido']
+                  }
+                  loop={15}
+                  cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+                  
+                  
+                  ></Typewriter>
                 <br className="hidden lg:inline-block" />
               </h1>
               <p className="mb-8 leading-relaxed mt-12">Consigue aumentar tus clientes de una manera <br></br>efectiva, sin elevados costos de inversión.</p>
@@ -39,7 +55,7 @@ function App() {
             </div>
             <div className="">
           
-           <img className='w-24 ml-24 mb-96 absolute elements ' src="https://c.tenor.com/6R6CUEXJGkAAAAAi/favorite-instagram.gif" />
+           <img className='w-24 ml-24 absolute elements ' src="https://c.tenor.com/6R6CUEXJGkAAAAAi/favorite-instagram.gif" />
             
             
           
