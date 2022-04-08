@@ -464,11 +464,8 @@ function App() {
           </div>
         </section>
         <section className="text-gray-700 body-font relative">
-          <div className="absolute inset-0 bg-gray-300">
-          
-
-
-
+          <div className="absolute inset-0 bg-gradient-to-r from-pink-700 via-pink-500 to-orange-400">
+         
           </div>
           <div className="container px-5 py-24 mx-auto flex">
             <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
@@ -476,7 +473,7 @@ function App() {
               <p className="leading-relaxed mb-5 text-gray-600">Consulta sobre nuestros planes personalizados</p>
               <input className="bg-white rounded border border-gray-400 focus:outline-none focus:border-pink-700 text-base px-4 py-2 mb-4" placeholder="Email" type="email" />
               <textarea className="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-pink-700 text-base px-4 py-2 mb-4 resize-none" placeholder="Message"></textarea>
-              <button className="text-white bg-gradient-to-r from-pink-700 via-pink-500 to-orange-400 border-0 py-2 px-6 focus:outline-none hover:bg-pink-700 rounded text-lg">Enviar</button>
+              <button className="text-white bg-gradient-to-r from-pink-700 via-pink-500 to-orange-400 border-0 py-2 px-6 focus:outline-none hover:bg-pink-700 rounded-full text-lg">Enviar</button>
               <p className="text-xs text-gray-500 mt-3">Sus datos son almacenados por seguridad.</p>
             </div>
           </div>
@@ -485,116 +482,115 @@ function App() {
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
               <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">ACCESO</h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Inicio</a>
                   </li>
                   <li>
                     <a className="text-gray-600 hover:text-gray-800">Second Link</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Planes</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Nosotros</a>
+                  </li>
+                  <li>
+                    <a className="text-gray-600 hover:text-gray-800">Soporte</a>
                   </li>
                 </nav>
               </div>
               <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PLANES</h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Basico</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Business</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Pro</a>
+                  </li>
+                </nav>
+              </div>
+              
+              <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">NOSOTROS</h2>
+                <nav className="list-none mb-10">
+                  <li>
+                    <a className="text-gray-600 hover:text-gray-800">Política de Privacidad</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Términos de Uso</a>
+                  </li>
+                  <li>
+                    <a className="text-gray-600 hover:text-gray-800">Personalizados</a>
                   </li>
                 </nav>
               </div>
               <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">COTIZAR</h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Consultar Online</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Soporte</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                  </li>
-                  <li>
-                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Atención al cliente</a>
                   </li>
                 </nav>
               </div>
               <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">ACCESO</h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Inicio</a>
                   </li>
                   <li>
                     <a className="text-gray-600 hover:text-gray-800">Second Link</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Planes</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Nosotros</a>
+                  </li>
+                  <li>
+                    <a className="text-gray-600 hover:text-gray-800">Soporte</a>
                   </li>
                 </nav>
               </div>
               <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PLANES</h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Basico</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Business</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                  </li>
-                  <li>
-                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                    <a className="text-gray-600 hover:text-gray-800">Pro</a>
                   </li>
                 </nav>
               </div>
-              <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                <nav className="list-none mb-10">
-                  <li>
-                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                  </li>
-                  <li>
-                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                  </li>
-                  <li>
-                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                  </li>
-                  <li>
-                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                  </li>
-                </nav>
-              </div>
+              
+              
+              
+              
             </div>
           </div>
           <div className="border-t border-gray-200">
             <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
               <div className="flex md:flex-no-wrap flex-wrap justify-center md:justify-start">
-                <input className="sm:w-64 w-40 bg-gray-100 rounded sm:mr-4 mr-2 border border-gray-400 focus:outline-none focus:border-indigo-500 text-base py-2 px-4" placeholder="Placeholder" type="text" />
-                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
-                <p className="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">Bitters chicharrones fanny pack
-                  <br className="lg:block hidden"/>waistcoat green juice 
+                <input className="sm:w-64 w-40 bg-gray-100 rounded sm:mr-4 mr-2 border border-gray-400 focus:outline-none focus:border-pink-700 text-base py-2 px-4" placeholder="Correo" type="text" />
+                <button className="inline-flex text-white bg-gradient-to-r from-pink-700 via-pink-500 to-orange-400  border-0 py-2 px-6 focus:outline-none hover:bg-pink-700 rounded-full">Enviar</button>
+                <p className="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">Recive promociones adicionales
+                  <br className="lg:block hidden"/>y  muchos descuentos.
                 </p>
               </div>
               <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
@@ -625,10 +621,10 @@ function App() {
           </div>
           <div className="bg-gray-200">
             <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-              <p className="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailwind Blocks —
-                <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@knyttneve</a>
+              <p className="text-gray-500 text-sm text-center sm:text-left">© 2020 EsahMark
+                <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@MCFigue</a>
               </p>
-              <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">Enamel pin tousled raclette tacos irony</span>
+              <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">Sitio web de construcción rapida</span>
             </div>
           </div>
         </footer>
