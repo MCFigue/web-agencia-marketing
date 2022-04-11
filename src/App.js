@@ -38,8 +38,8 @@ function App() {
               </a>
               <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center ">
                 <a className="mr-5 ml-10 hover:text-gray-900">Inicio</a>
-                <a className="mr-5 ml-10 hover:text-gray-900">Planes</a>
-                <a className="mr-5 ml-10 hover:text-gray-900">Nosotros</a>
+                <a  href='#planes' className="mr-5 ml-10 hover:text-gray-900">Planes</a>
+                <a href='#Nuestro' className="mr-5 ml-10 hover:text-gray-900">Nosotros</a>
                 <a className="mr-5 ml-10 hover:text-gray-900">Soporte</a>
               </nav>
               <button className="inline-flex items-center text-pink-700 bg-gray-200 border-0 py-2 px-4 focus:outline-none hover:bg-gray-300 rounded-full text-base mt-4 md:mt-0">Cotizar
@@ -86,10 +86,10 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="text-gray-700 body-font border-t border-gray-200">
+        <section id='planes' className="text-gray-700 body-font border-t border-gray-200">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h2 className="text-xs text-pink-700 tracking-widest font-medium title-font mb-1">NUESTRO COMPROMISO CONTIGO</h2>
+              <h2  className="text-xs text-pink-700 tracking-widest font-medium title-font mb-1">NUESTRO COMPROMISO CONTIGO</h2>
               <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Solo EsahMark te ofrece: </h1>
             </div>
             <div className="flex flex-wrap -m-4">
@@ -429,7 +429,7 @@ function App() {
           </div>
         </section>
         
-        <section className="text-gray-700 body-font border-t border-gray-200">
+        <section id='Nuestro' className="text-gray-700 body-font border-t border-gray-200">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Nuestro Equipo</h1>
@@ -499,7 +499,7 @@ function App() {
 
              
             </div>
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <div  className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full   md:mt-0 relative z-10">
               <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Reserva tú Asesoria</h2>
               <p className="leading-relaxed mb-5 text-gray-600">Consulta sobre nuestros planes personalizados</p>
@@ -513,7 +513,7 @@ function App() {
         </section>
 
 
-        
+                  
         <footer className="text-gray-700 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
@@ -527,7 +527,7 @@ function App() {
                     <a className="text-gray-600 hover:text-gray-800">Second Link</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800">Planes</a>
+                    <a className="text-gray-600 hover:text-gray-800 ">Planes</a>
                   </li>
                   <li>
                     <a className="text-gray-600 hover:text-gray-800">Nosotros</a>
