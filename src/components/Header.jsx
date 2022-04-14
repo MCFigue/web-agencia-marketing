@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="text-white body-font  bg-gradient-to-r from-pink-700 via-pink-500 to-orange-400">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
-              <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 " href="https://tailblocks.cc" target="_blank">
+              <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 "  target="_blank">
                 <img className='w-14' src="https://i.ibb.co/kDfRT5b/logo-small-1.png"  />
                 <span className="ml-3 text-xl text-white">EsahMrk</span>
               </a>
