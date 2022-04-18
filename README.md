@@ -23,7 +23,8 @@
 
   <h2>Proeyecto</h2>
   <p>Mediante la creación de esta pequeña pagina referencia el estudio de React, Tailwind y JavaScript</p>
-  
+  <h2>Maquetación</h2>
+<img margin="20px" height="450" width=850" src="https://i.ibb.co/Ny8cp7L/fl.gif"/>
   <h4>Clonar</h4> 
 Enter Git bash or CMD
 
