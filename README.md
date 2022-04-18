@@ -1,5 +1,9 @@
 # Agencia de Marketing Contenido 
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
+
 <img src="https://i.ibb.co/SJHFKnv/screencapture-localhost-3000-2022-04-18-18-11-15.png"/>
+
 
 
 <h2>Tecnologías Usadas</h2>
@@ -17,4 +21,13 @@
   <h2>Proeyecto</h2>
   <p>Mediante la creación de esta pequeña pagina referencia el estudio de React, Tailwind y JavaScript</p>
   
-  
+  <h4>Clonar</h4> 
+Enter Git bash or CMD
+
+```comand
+	git clone 
+```
+```comand
+	npm i
+      npm start
+```
