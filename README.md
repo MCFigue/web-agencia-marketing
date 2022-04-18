@@ -14,3 +14,7 @@
 
   <img align="center" title="Tailwind CSS" alt="FigueTailwind" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
 
+  <h2>Proeyecto</h2>
+  <p>Mediante la creación de esta pequeña pagina referencia el estudio de React, Tailwind y JavaScript</p>
+  
+  
