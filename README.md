@@ -6,6 +6,7 @@
 
 
 
+
 <h2>Tecnologías Usadas</h2>
 <div style="display: inline_block"><br>
   <img align="center" title="React-js" alt="Figue-React" height="30" width="35" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png">
@@ -32,6 +33,6 @@ Enter Git bash or CMD
 	git clone 
 ```
 ```comand
-	npm i
+	npm install /npm i
       npm start
 ```
