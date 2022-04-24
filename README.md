@@ -7,7 +7,7 @@
 
 
 
-<h2>Tecnologías Usadas</h2>
+<h2>Tecnologías Usadas :</h2>
 <div style="display: inline_block"><br>
   <img align="center" title="React-js" alt="Figue-React" height="30" width="35" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png">
   <img align="center" title="Javascript" alt="Figue-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
